@@ -19,7 +19,7 @@
     [super viewDidLoad];
     Person *person = [[Person alloc] init];
     person.name = @"Kare";
-    person.name = @"karepbq@gmail.com";
+    person.email = @"karepbq@gmail.com";
     
     NSData *data = [person data];
     NSLog(@"data -> %@", data);
